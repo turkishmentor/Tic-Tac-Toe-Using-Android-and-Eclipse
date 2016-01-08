@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thenewboston.travis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <supports-screens 
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        
+        
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Starting_page"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    <activity
+            android:name=".Instruction"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.Instruction" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+  
+      <activity
+            android:name=".About"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+        
+  <activity
+            android:name=".New_game_click"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.New_game_click" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+  <activity
+            android:name=".Difficulty"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.Difficulty" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Board"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.BOARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+            <activity
+            android:name=".X_win"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.X_WIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+            <activity
+            android:name=".O_win"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.O_WIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+           <activity
+            android:name=".Match_tie"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.MATCH_TIE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Board_cpu_easy"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.Board_cpu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Board_cpu_hard"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.Board_cpu_hard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Board_cpu_medium"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.Board_cpu_medium" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".X_win_cpu"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.X_WIN_CPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+            <activity
+            android:name=".O_win_cpu"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.O_WIN_CPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+           <activity
+            android:name=".Match_tie_cpu"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.MATCH_TIE_CPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              <activity
+            android:name=".X_win_cpu_medium"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.X_WIN_CPU_MEDIUM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+            <activity
+            android:name=".O_win_cpu_medium"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.O_WIN_CPU_MEDIUM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+           <activity
+            android:name=".Match_tie_cpu_medium"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.MATCH_TIE_CPU_MEDIUM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".X_win_cpu_hard"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.X_WIN_CPU_HARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+            <activity
+            android:name=".O_win_cpu_hard"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.O_WIN_CPU_HARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+           <activity
+            android:name=".Match_tie_cpu_hard"
+            android:label="@string/app_name" 
+              android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.thenewboston.travis.MATCH_TIE_CPU_HARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

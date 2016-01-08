@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    android:orientation="vertical" >
+    
+      <Button
+                  android:id="@+id/back"
+                  android:layout_width="70dp"
+                  android:layout_height="40dp"
+                
+                  android:layout_marginTop="326dp"
+                  android:layout_marginLeft="210dp"
+                  android:layout_marginRight="100dp"
+               
+                  android:background="@drawable/back1"
+                 
+                  android:tag="2" />
+    
+
+</LinearLayout>

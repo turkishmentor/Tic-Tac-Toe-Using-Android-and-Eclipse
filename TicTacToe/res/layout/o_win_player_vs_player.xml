@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background50"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/congratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="70dp"
+        android:text="  Player 2 Wins"
+        android:textColor="#e9d66b"
+        android:textSize="37dp"
+        android:textStyle="bold" />
+
+   
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="65dp"
+        android:text="     Play again?"
+        android:textColor="#e5aa70"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+   <TableRow
+      
+
+       android:layout_width="310dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="0dp"
+       android:orientation="horizontal"
+       >
+        <Button
+            android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="2dp" 
+        android:text="Yes"
+        android:textStyle="bold"
+        android:textSize="18dp">
+    </Button>
+    
+           <Button
+               android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="2dp" 
+        android:text="No"
+        android:textStyle="bold"
+        android:textSize="18dp">
+    </Button>
+    
+       </TableRow>
+
+   
+
+</LinearLayout>
